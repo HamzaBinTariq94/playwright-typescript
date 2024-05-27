@@ -50,8 +50,8 @@ test('Logout', async ({ page }) => {
 
 })
 // This will run after all tests
-test.afterAll(async ({ page }) => {
-   await page.close();
+// test.afterAll(async ({ page }) => {
+   // await page.close();
    // Cleanup code 
-});
+// });
 
